@@ -27,25 +27,6 @@ public abstract class Money
         return value * amount;
     }
 
-    public int getAmount()
-    {
-        return amount;
-    }
-
-    public void setAmount(int amount)
-    {
-        this.amount = amount;
-    }
-
-    public double getValue()
-    {
-        return value;
-    }
-
-    public void setValue(double value)
-    {
-        this.value = value;
-    }
 
     @Override
     public String toString()
